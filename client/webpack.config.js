@@ -10,7 +10,6 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      cards: './src/js/cards.js'
     },
     // This is an output for our bundles
     output: {
@@ -21,7 +20,7 @@ module.exports = () => {
       // Webpack plugin that generates a html file called index.html where our bundles will do
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        // title: 'Contact Cards'
       }),
      
       // This is out service worker
@@ -34,7 +33,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Contact Cards',
+        // name: 'Contact Cards',
         short_name: 'Contact',
         description: 'Never forget your contacts!',
         background_color: '#225ca3',
