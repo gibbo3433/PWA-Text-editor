@@ -52,7 +52,7 @@ I have added commenting to help any future edits by making it easier to see what
 
 ## Link to deployed application
 
-Heroku
+Heroku - https://text-editor-pwa-v-1.herokuapp.com/
 
 ## Authors and acknowledgment
 
